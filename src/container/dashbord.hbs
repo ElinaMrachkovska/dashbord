@@ -3,7 +3,7 @@
 
 <head>
 	<title>
-		Slack page
+		Dashbord page
 	</title>
 	<meta charset='utf-8' />
 	<link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon.png">
@@ -38,6 +38,27 @@
 
 			</nav>
 		</aside>
+<article class="horizon">
+<div class="text aside__logo--1000">Sidebar</div>
+<img src="/img/menu.png" class="menu">
+<div class="layout header__content text--small">
+				<div class="header__search--1000 relative">
+					<input type="text" placeholder="Search" class="text field field--header">
+					<span class="icon header__icon-search"
+						style="background-image:url('img/svg/header/search.svg')"></span>
+					<span class="icon icon--header--settings icon-button icon--color-blue click"
+						style="background-image:url('img/svg/header/settings.svg')"></span>
+				</div>
+				<div class="icon__list">
+					<img src="img/svg/header/right-wf.svg" class="icon icon--list icon--header--wf icon-button  click">
+					<img src="img/svg/header/right-china.svg"
+						class="icon icon--list icon--header--china icon-button click">
+					<img src="img/svg/header/right-bell.svg"
+						class="icon icon--list icon--header--bell icon-button click">
+				</div>
+</article>
+
+
 		<header class="header">
 			<div class="layout header__content text--small">
 				<div class="header__search relative">
@@ -96,12 +117,13 @@
 							<div class="analytic__title--mini text text--line">$203k</div>
 							<div class="analytic__info info--mini text text--small "> Total Income</div>
 						</div>
-
 					</div>
+				</section>
 			</div>
 
-			<div class=" main__list">
+			<div class="main__list">
 				<div class="layout">
+					<div class="main__wrap">
 					<section class="purchase">
 						<div class="purchase-list box ">
 							<div class="purchase__title">Purchase list</div>
@@ -190,8 +212,7 @@
 								<label class="lable--placeholder ">Country</label>
 								<div class="field field--select click">
 									<span class="text text--grey relative ">Choose...</span>
-									<img class="icon  check__arrow icon-button  click"
-								style="background-image:url('img/svg/checkbox/check.svg')">
+									{{!-- <img src="img/svg/checkbox/check.svg" class="icon  check__arrow icon-button  click"> --}}
 								</div>
 								<select class="field__select">
 									<option value="pot">nen</option>
@@ -217,19 +238,12 @@
 
 						</div>
 					</div>
+					</section>
+					</div>
 				</div>
+				</div>
+			</main>
 			</div>
-	</div>
-
-
-
-	</section>
-	</div>
-	</div>
-	</main>
-	</div>
-
-
 </body>
 
 </html>
