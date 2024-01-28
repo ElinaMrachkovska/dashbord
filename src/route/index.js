@@ -28,7 +28,7 @@ router.get('/slack', function (req, res) {
   //            ↙ cюди вводимо назву файлу з сontainer
   res.render('slack', {
     //                  ↑↑ сюди вводимо JSON дані
-
+    layout: null,
   })
 })
 // ================================================================

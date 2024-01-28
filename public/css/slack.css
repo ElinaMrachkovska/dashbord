@@ -132,9 +132,10 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: var(--spacing-5);
     text-decoration: none;
+    
   }
   .brands_image:hover {
-    border-bottom: 1px solid #454245;
+   
     padding: 5px;
     opacity: 0.5;
   }
@@ -143,6 +144,10 @@ body {
     color: var(--color-white);
     background-color: var(--color-primary);
   }
+  .button_primary:hover{
+    color: var(--color-primary);
+}
+
   .page_section_light {
     background-color: var(--color-light);
   }
@@ -212,10 +217,12 @@ body {
     margin-top: -130px;
     display: flex;
     position: relative;
+    
   }
 
   .rage_section_light {
     background-color: var(--color-light);
+    justify-content: center;
   }
 
   .meatures_section {
@@ -345,8 +352,8 @@ body {
   }
   .content_description {
     position: absolute;
-    top: 0px;
-    left: 615px;
+    top: -45px;
+    left: 720px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -354,28 +361,33 @@ body {
     width: 510px;
     margin-left: var(--size-6);
     margin-bottom: var(--spacing-9);
+   
   }
 
   .img_nero {
-    position: absolute;
-    top: 137px;
-    left: 45px;
+   justify-self: start;
+   margin: 10px 50px 0 -30px;
     width: 556px;
     height: 228px;
+    vertical-align: center;
   }
 
   .nero_title {
-    font-size: var(--spacing-4);
+    font-size: var(--size-5);
     font-weight: 700;
-    line-height: 150%; /* 42px */
+    line-height: var(--line-height);
     letter-spacing: -0.3px;
     padding-right: 46px;
   }
   .nero_info {
     font-size: var(--size-2);
   }
+  .rage_section {
+    margin-bottom: 48px;
+    
+        }
   .blog {
-    margin-top: 200px;
+    margin:107px 0 80px 0;
   }
   .blog_cards {
     display: flex;
@@ -492,7 +504,7 @@ body {
     }
     .img_nero {
       position: absolute;
-      left: 40px;
+      left: 0px;
       top: 70px;
       width: 50%;
     }
@@ -517,7 +529,7 @@ body {
       margin-bottom: var(--spacing-7);
     }
     .blog {
-      margin-top: 260px;
+      margin-top: 160px;
     }
     .club {
       display: flex;
@@ -579,6 +591,7 @@ body {
       width: 600px;
       z-index: 2;
     }
+  
     .rage_section_light {
       height: 600px;
     }
@@ -616,7 +629,7 @@ body {
       margin-bottom: var(--spacing-8);
     }
     .blog {
-      margin-top: 150px;
+      margin-top: 80px;
     }
     .blog_cards h1 {
       padding-top: 50px;
@@ -649,10 +662,12 @@ body {
     .page_content {
       max-width: var(--page-width-xsmall);
       width: 100%;
+      
     }
     .page_section {
       padding-left: 40px;
     }
+    
     .hero_title {
       width: 300px;
     }
@@ -660,7 +675,8 @@ body {
       width: 90%;
     }
     .brands {
-      margin-left: -20px;
+     max-width:400px;
+     width:fit-content;
     }
     .hero p {
       padding-left: 0px;
@@ -723,25 +739,23 @@ body {
 
     .content_description {
       position: relative;
-      top: 70px;
-      left: 100px;
+      top: 0px;
+      left: 70px;
 
       text-align: justify;
       gap: var(--spacing-4);
-      max-width: 390px;
+      max-width: 370px;
       padding-bottom: var(--spacing-9);
     }
 
     .nero_title {
-      font-size: var(--spacing-3);
+      font-size: var(--spacing-5);
       font-weight: 700;
-      line-height: 150%; /* 42px */
+      line-height:var(--line-height);
       letter-spacing: -0.3px;
     }
 
-    .nero_title {
-      font-size: 18px;
-    }
+   
     .blog_cards {
       margin-top: 50px;
       justify-content: flex-start;
@@ -808,10 +822,14 @@ body {
     }
     .content_description {
       text-align: justify;
-      font-size: small;
-      width: 300px;
+           width: 300px;
       margin-bottom: var(--spacing-9);
     }
+    .nero_content {
+        top: -50px;
+    }
+    .nero_title{
+        font-size: var(--size-3);}
     .features_section {
       width: 300px;
     }
